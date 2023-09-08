@@ -1,0 +1,52 @@
+.mediaViewInfo {
+	--web-view-name: iPhone 6, 7, 8 – 1;
+	--web-view-id: iPhone_6_7_8__1;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: iPhone_6_7_8__1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+body {
+    margin: 10;
+    padding: 10;
+    height: auto;
+    width: auto;
+
+}
+
+.Rectangle_1 {
+    border-radius: 3px;
+    border:2px solid #dcdcdc;
+    padding: 3px;
+}
+.Rectangle_2 {
+    border-radius: 3px;
+    border:2px solid #dcdcdc;
+    padding: 3px;
+}
+.Rectangle_3 {
+    border:2px;
+border-radius: 3px;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+color: #3b579d;
+}
+
+
+@media screen and (max-width:360px) {
+body {
+width: 360px;
+margin-right: 5px;
+}  
+}
